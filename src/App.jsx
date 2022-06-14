@@ -1,5 +1,5 @@
-import './App.css';
 
+//vvv Same as const App = () => { vvv
 function App() {
   return (
     <div>
