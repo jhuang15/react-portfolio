@@ -1,10 +1,10 @@
 import React from 'react';
-import './header.css';
+import './portfolio.css';
 
-const Header = () => {
+const Portfolio = () => {
   return (
-    <div>Header</div>
+    <div>Portfolio</div>
   )
 }
 
-export default Header
+export default Portfolio

@@ -1,10 +1,10 @@
 import React from 'react';
-import './header.css';
+import './nav.css';
 
-const Header = () => {
+const Nav = () => {
   return (
-    <div>Header</div>
+    <div>Nav</div>
   )
 }
 
-export default Header
+export default Nav

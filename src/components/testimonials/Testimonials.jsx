@@ -1,10 +1,10 @@
 import React from 'react';
-import './header.css';
+import './testimonials.css';
 
-const Header = () => {
+const Testimonials = () => {
   return (
-    <div>Header</div>
+    <div>Testimonials</div>
   )
 }
 
-export default Header
+export default Testimonials
