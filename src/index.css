@@ -41,4 +41,7 @@ h1, h2, h3, h4, h4, h5 {
 p {
   font-weight: 200;
 }
+hr {
+  border: 1px solid black;
+}
 

@@ -1,0 +1,27 @@
+.container-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10vmin;
+}
+.left-container {
+  width: stretch;
+  height: stretch;
+  margin-right: 10px;
+}
+.right-container {
+  width: stretch;
+  height: 80vh;
+  border: 1px solid black;
+  border-radius: 15px;
+  color: black;
+}
+.aboutme-content {
+  padding: 10vmin;
+}
+.about-text {
+  margin-top: 5vmin;
+}
+h2 {
+  font-size: 8vmin;
+}
