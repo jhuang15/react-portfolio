@@ -43,17 +43,18 @@ h1 {
 hr {
   border: 1px solid black;
 }
-button {
+.btn-link {
   background-color: var(--color-bg);
   border: 1px solid var(--color-bg);
   border-radius: 10px;
   width: 100%;
   padding: 2vmin 25vmin;
-  margin: 1px;
+  margin: 2px;
   font-weight: 100;
   font-size: 20px;
+  color: black;
 }
-button:hover {
+.btn-link:hover {
   border: 1px solid black;
 }
 .header-corner {
