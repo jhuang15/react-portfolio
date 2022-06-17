@@ -10,14 +10,14 @@
   text-decoration: none;
 }
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-variant: #7f7fc9;
-  --color-primary: #49b7b5;
-  --color-primary-variant: #2fc354;
+  --color-bg: #ECE5DF;
+  --color-bg-variant: #E9CEC0;
+  --color-primary: #847F7A;
+  --color-primary-variant: #C4B6A7;
   --color-white: #ffffff;
   --color-light: #a1a1a1;
   --container-width-lg: 75%;
-  --container-width-md: 86%;
+  --container-width-md: 80%;
   --container-width-ms: 90%;
 }
 html { 
@@ -37,5 +37,8 @@ body {
 }
 h1, h2, h3, h4, h4, h5 {
   font-weight: 500;
+}
+p {
+  font-weight: 200;
 }
 
