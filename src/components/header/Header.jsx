@@ -1,5 +1,11 @@
 import React from 'react';
-import useState from 'react';
+import { Link } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import About from '../about/About';
 import Experience from '../experience/Experience';
 import Portfolio from '../portfolio/Portfolio';
@@ -7,11 +13,11 @@ import Contact from '../contact/Contact';
 import './header.css';
 
 const Header = () => {
-  const [showPage, setShowPage] = useState(false);
+  // const [showPage, setShowPage] = useState(false);
 
-  const handleClick = event => {
-    setShowPage(true);
-  };
+  // const handleClick = event => {
+  //   setShowPage(true);
+  // };
 
   return (
     <div className="container">
@@ -24,14 +30,10 @@ const Header = () => {
           
           <div className="content-btns">
             <hr />
-            <button onClick={handleClick}>about me</button>
-            {showPage && (<About />)}
-            <button onClick={handleClick}>experience</button>
-            <Experience />
-            <button onClick={handleClick}>portfolio</button>
-            <Portfolio />
-            <button onClick={handleClick}>contact me</button>
-            <Contact />
+            <Link to="/about-me">about me</Link>           
+            <Link to="/experience">experience</Link>         
+            <Link to="/portfolio">portfolio</Link>
+            <Link to="/contact-me">contact me</Link>
           </div>
         </div>
         <div className="div-column">
