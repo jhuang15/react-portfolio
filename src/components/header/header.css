@@ -68,3 +68,8 @@ hr {
   justify-content: center;
   align-content: center;
 }
+img {
+   width: 350px;
+   height: 380px;
+   border-radius: 10px;;
+}
