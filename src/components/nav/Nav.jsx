@@ -6,10 +6,12 @@ const Nav = () => {
   return (
     <div id="modalOne" className="modal">
       <div className="modal-content">
-        <div className="contact-form">
-          <span className="close">&otimes;</span>
-          <h3>Menu</h3>
-        </div>
+        <h3>Navigation</h3>
+        <Link className="nav-link" to="/about-me">about me</Link>           
+        <Link className="nav-link" to="/experience">experience</Link>         
+        <Link className="nav-link" to="/portfolio">portfolio</Link>
+        <Link className="nav-link" to="/contact-me">contact me</Link>
+
       </div>
     </div>
   )

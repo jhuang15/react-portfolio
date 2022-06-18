@@ -57,18 +57,28 @@ hr {
   background-color: rgba(0, 0, 0, 0.4);
 }
 .modal-content {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg);
   box-shadow: 0 2px 5px #bdbdbd;
-  background-color: white;
-  border-radius: 15px;
-  margin: 50px auto;
   border: 1px solid #999;
-  width: 30%;
+  border-radius: 10px;
+  margin-top: 10vmin;
+  margin-left: 19vmin;
+  padding: 10px;
+  width: 20%;
+  
 }
 .button {
-  margin: 5px;
-  border-radius: 25px;
-  padding: 10px 20px;
-  font-size: 14px;
+  font-size: 20px;
+  font-weight: 100;
   cursor: pointer;
+  height: 20px;
+  background-color: var(--color-bg);
+  margin: 20px 0px 0px 20px;
 }
+.button:hover {
+  font-weight: 300;
+}
+
 
