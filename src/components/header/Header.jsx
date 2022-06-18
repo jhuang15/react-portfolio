@@ -1,8 +1,32 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Nav from '../nav/Nav';
 import './header.css';
 
 const Header = () => {
+
+  useEffect(function () {
+    const modalBtns = document.querySelectorAll(".button");
+    const closeBtns = document.querySelectorAll(".close");
+
+    modalBtns.forEach(function (btn) {
+      btn.onclick = function () {
+        let modal = btn.getAttribute("data-modal");
+        document.getElementById(modal).style.display = "block";
+      };
+      closeBtns.forEach(function (btn) {
+        btn.onclick = function () {
+          let modal = btn.closest(".modal");
+          modal.style.display = "none";
+        };
+      });
+      window.onclick = function (event) {
+        if (event.target.className === "modal") {
+          event.target.style.display = "none";
+        }
+      };
+    });
+  }, []);
 
   return (
     <div className="container">
@@ -15,6 +39,8 @@ const Header = () => {
           
           <div className="content-btns">
             <hr />
+            <button className="button" id="menu-btn" data-modal="modalOne">Menu</button>
+            <Nav />
             <Link className="btn-link" to="/about-me">about me</Link>           
             <Link className="btn-link" to="/experience">experience</Link>         
             <Link className="btn-link" to="/portfolio">portfolio</Link>
