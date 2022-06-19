@@ -31,6 +31,7 @@ const About = () => {
         <h2>About Me</h2>
         <hr />
         <p className="about-text">Inquisitive software engineer with a background in computer science transferring restaurant industry skills such as teamwork, attention to detail, and resiliency. Eager to utilize and strengthen qualifications independently and cooperatively to develop extensive products in technology to meet clients' needs.</p>
+        <p className="about-text">add download resume btn here</p>
       </div>
     </div>
     </div>

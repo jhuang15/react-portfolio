@@ -7,6 +7,7 @@ const Nav = () => {
     <div id="modalOne" className="modal">
       <div className="modal-content">
         <h3>Navigation</h3>
+        <Link className="nav-link" to="/">home</Link>           
         <Link className="nav-link" to="/about-me">about me</Link>           
         <Link className="nav-link" to="/experience">experience</Link>         
         <Link className="nav-link" to="/portfolio">portfolio</Link>

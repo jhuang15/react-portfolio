@@ -20,11 +20,32 @@ const Contact = () => {
   }, []);
 
   return (
-    <div>
-      <p>contact</p>
-      <button className="button" id="menu-btn" data-modal="modalOne">ooo</button>
-      <Nav />
+    <div className="container" id="contact-container">
+      <div className="column-contact">
+      <div className="header-corner" id="contact-header"> 
+          <h4>Jenny Huang</h4>
+          <p>SOFTWARE ENGINEER</p>
+          <p>FULL-STACK ENGINEER</p>
+        </div> 
+      <div className="left-div">
+        <div className="contactme-div">
+          <div className="hr-contact">
+          <button className="button" id="menu-btn" data-modal="modalOne">ooo</button>
+          <Nav />
+          <hr />
+          </div>
+          <h2>Contact Me</h2>
+        </div>
+      </div>
+      </div>
+      
+      <div className="right-div">
+        <div className="contact-item">jchuang1020@gmail.com</div>
+        <div className="contact-item">https://www.linkedin.com/in/jenny-huang-atl/</div>
+        <div className="contact-item">https://github.com/jhuang15</div>
+      </div>
     </div>
+
   )
 }
 
