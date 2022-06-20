@@ -9,7 +9,6 @@
 .div-row {
   display: flex;
   flex-direction: row;
-  height: stretch;
 }
 .div-column {
   width: stretch;

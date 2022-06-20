@@ -1,6 +1,10 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Nav from '../nav/Nav';
+import About from '../about/About';
+import Experience from '../experience/Experience';
+import Portfolio from '../portfolio/Portfolio';
+import Contact from '../contact/Contact';
 import './header.css';
 
 const Header = () => {
@@ -50,6 +54,10 @@ const Header = () => {
           </div>
         </div>
       </div>
+      <About />
+      <Experience />
+      <Portfolio />
+      <Contact />
     </div>
   )
 }
