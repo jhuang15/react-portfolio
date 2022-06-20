@@ -46,7 +46,7 @@ const Header = () => {
             <p>FULL-STACK ENGINEER</p>
           </div> 
           <div className="head-photo">
-            <img src="https://i.imgur.com/D0rFcIZ.jpg"></img>
+            <img src="https://i.imgur.com/D0rFcIZ.jpg" alt="me"></img>
           </div>
         </div>
       </div>

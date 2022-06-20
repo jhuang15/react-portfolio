@@ -1,3 +1,6 @@
+body#contact {
+  background-color: var(--color-bg-variant);
+}
 #contact-container {
   display: flex;
   flex-direction: row;
