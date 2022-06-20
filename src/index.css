@@ -80,5 +80,8 @@ hr {
 .button:hover {
   font-weight: 300;
 }
+a {
+  color: black;
+}
 
 

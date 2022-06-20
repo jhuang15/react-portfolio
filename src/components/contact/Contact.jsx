@@ -41,8 +41,8 @@ const Contact = () => {
       
       <div className="right-div">
         <div className="contact-item">jchuang1020@gmail.com</div>
-        <div className="contact-item">https://www.linkedin.com/in/jenny-huang-atl/</div>
-        <div className="contact-item">https://github.com/jhuang15</div>
+        <div className="contact-item"><a href="https://www.linkedin.com/in/jenny-huang-atl/">https://www.linkedin.com/in/jenny-huang-atl/</a></div>
+        <div className="contact-item"><a href="https://github.com/jhuang15">https://github.com/jhuang15</a></div>
       </div>
     </div>
 
