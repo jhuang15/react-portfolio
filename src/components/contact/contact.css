@@ -4,7 +4,6 @@ body#contact {
 #contact-container {
   display: flex;
   flex-direction: row;
-  
   border: none;
 }
 .column-contact {
@@ -22,7 +21,7 @@ body#contact {
   border: 1px solid black;
   border-radius: 10px;
   width: stretch;
-  height: 30vmin;
+  height: fit-content;
   margin: 4vmin 10vmin 10vmin 10vmin;
   padding: 0px 30px 30px 30px;
 }

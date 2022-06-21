@@ -21,10 +21,11 @@ const Experience = () => {
 
 
   return (
-    <div>
-      <p>contact</p>
+    <div className="container" id="skills-container">
+      <p>skills</p>
       <button className="button" id="menu-btn" data-modal="modalOne">ooo</button>
       <Nav />
+      <p>HTML, CSS, JavaScript, Python, Java, Django, Express, React, SQL, Android, Git, Agile Methodology, Bootstrap</p>
     </div>
   )
 }

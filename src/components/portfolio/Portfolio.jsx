@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import Nav from '../nav/Nav';
 import './portfolio.css';
 
@@ -22,10 +22,10 @@ const Portfolio = () => {
   return (
     <div className="container" id="portfolio-container">
       <div className="content-row">
-        <div id="left-div">
-        <button className="button" id="menu-btn" data-modal="modalOne">ooo</button>
-        <Nav />
-        <hr />
+        <div id="project-div">
+          <button className="button" id="menu-btn" data-modal="modalOne">ooo</button>
+          <Nav />
+          <hr />
           <h1 id="project-title">Wedding Site Planner</h1>
           <h3>MERN-Stack Web Application</h3>
           <p>Built a full-stack CRUD application on MERN stack using MongoDB, Express, React and Node.js to create, read update and delete data on a wedding website making application.describe the project, languages used, framework, functions, etc. </p>
@@ -34,41 +34,46 @@ const Portfolio = () => {
             <a href="https://mint-wedding.herokuapp.com/" className="project-btn">Deployed Link</a>
           </div>
         </div>
-        <div id="right-div">
-          <div className="project-img" id="top">
-              <hr id="flex-hr"/>
-            <img className="img" src="https://i.imgur.com/I3GMZ2m.png" alt="project 1"></img>
-          </div>
-          <div className="project-img" id="bottom">
-          <img className="img" src="https://i.imgur.com/5pL6YcY.png" alt="project 1"></img>
-          </div>
-        </div>
-      </div>
-
-      <div className="content-row">
-      <div id="left-div">
-        <button className="button" id="menu-btn" data-modal="modalOne">ooo</button>
-        <Nav />
-        <hr />
-          <h1 id="project-title">project 2</h1>
-          <h3>MERN-Stack Web Application</h3>
-          <p>Built a full-stack CRUD application on MERN stack using MongoDB, Express, React and Node.js to create, read update and delete data on a wedding website making application.describe the project, languages used, framework, functions, etc. </p>
+        <div id="project-div">
+          <button className="button" id="menu-btn" data-modal="modalOne">ooo</button>
+          <Nav />
+          <hr />
+          <h1 id="project-title">OnlyCakes</h1>
+          <h3>Full-CRUD Django Web Application</h3>
+          <p>Collaborated in a team to develope a web application with Django, Javascript and Python3 to implement full-stack CRUD functionalities. </p>
           <div className="btn-container">
-            <a href="https://github.com/jhuang15/mint" className="project-btn">Github</a>
-            <a href="https://mint-wedding.herokuapp.com/" className="project-btn">Deployed Link</a>
-          </div>
-        </div>
-
-      <div id="right-div">
-          <div className="project-img" id="top">
-              <hr id="flex-hr"/>
-            <img className="img" src="https://i.imgur.com/I3GMZ2m.png" alt="project 1"></img>
-          </div>
-          <div className="project-img" id="bottom">
-          <img className="img" src="https://i.imgur.com/5pL6YcY.png" alt="project 1"></img>
+            <a href="https://github.com/jhuang15/onlycakes" className="project-btn">Github</a>
+            <a href="https://onlycakes.herokuapp.com/" className="project-btn">Deployed Link</a>
           </div>
         </div>
       </div>
+      <div className="content-row">
+        <div id="project-div">
+          <button className="button" id="menu-btn" data-modal="modalOne">ooo</button>
+          <Nav />
+          <hr />
+          <h1 id="project-title">Inventory Tracker</h1>
+          <h3>Full-CRUD application built using Express </h3>
+          <p>An inventory tracker for a bar/restaurant. Performs full CRUD</p>
+          <div className="btn-container">
+            <a href="https://github.com/jhuang15/bevo" className="project-btn">Github</a>
+            <a href="https://bevo-sei.herokuapp.com/" className="project-btn">Deployed Link</a>
+          </div>
+        </div>
+        <div id="project-div">
+          <button className="button" id="menu-btn" data-modal="modalOne">ooo</button>
+          <Nav />
+          <hr />
+          <h1 id="project-title">Concentration</h1>
+          <h3>A memory game using vanilla Javascript </h3>
+          <p>A memory game</p>
+          <div className="btn-container">
+            <a href="https://github.com/jhuang15/concentration" className="project-btn">Github</a>
+            <a href="https://jhuang15.github.io/concentration/" className="project-btn">Deployed Link</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   )
 }

@@ -1,5 +1,6 @@
 #portfolio-container {
   border: none;
+  height: fit-content;
   
 }
 .content-row {
@@ -7,12 +8,11 @@
   flex-direction: row;
   margin-bottom: 2rem;
 }
-#left-div {
+#project-div {
   border: 1px solid black;
   border-radius: 10px;
   padding: 1rem 3rem 3rem 3rem;
-  margin: 2rem;
-
+  margin: 1rem;
 }
 #project-title {
   display: flex;
