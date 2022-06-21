@@ -1,3 +1,30 @@
 #skills-container {
+  height: fit-content;
+  border: none;
+}
+h2 {
+  text-align: center;
+}
+.skills-div-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+.skills-div {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1rem;
+  min-width: 40%;
   height: 20rem;
+}
+.skill-title {
+  font-size: 1.5em;
+  font-weight: 200;
+  padding: 1rem;
+}
+.skill-content {
+  margin: 2rem;
+  text-align: center;
+  font-weight: 400;
 }

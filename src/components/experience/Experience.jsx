@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import Nav from '../nav/Nav';
 import './experience.css';
 
@@ -22,10 +22,29 @@ const Experience = () => {
 
   return (
     <div className="container" id="skills-container">
-      <p>skills</p>
-      <button className="button" id="menu-btn" data-modal="modalOne">ooo</button>
-      <Nav />
-      <p>HTML, CSS, JavaScript, Python, Java, Django, Express, React, SQL, Android, Git, Agile Methodology, Bootstrap</p>
+      <h2>My Skills</h2>
+      <div className="skills-div-wrapper">
+        <div className="skills-div">
+          o o o
+          <h2 className="skill-title">PROGRAMMING LANGUAGES</h2>
+          <hr />
+          <p className="skill-content">java, javascript, python, html, css</p>
+
+        </div>
+        <div className="skills-div" id="middle-skills-div">
+          o o o
+          <h2 className="skill-title">AGILE DEVELOPMENT</h2>
+          <hr />
+          <p className="skill-content">Delivered projects in sprints</p>
+        </div>
+        <div className="skills-div">
+          o o o
+          <h2 className="skill-title">SOFTSKILLS</h2>
+          <hr />
+          <p className="skill-content"> I have gained experience with client relations and understand the importance of meeting clients’ needs. My attention to detail and diligence allow me to produce a quality product. 
+</p>
+        </div>
+      </div>
     </div>
   )
 }
