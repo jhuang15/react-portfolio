@@ -1,9 +1,11 @@
 #portfolio-container {
   border: none;
+  
 }
 .content-row {
   display: flex;
   flex-direction: row;
+  margin-bottom: 2rem;
 }
 #left-div {
   border: 1px solid black;
