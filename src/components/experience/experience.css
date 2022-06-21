@@ -4,6 +4,7 @@
 }
 h2 {
   text-align: center;
+  margin: 1rem 0rem 1rem 0rem;
 }
 .skills-div-wrapper {
   display: flex;
@@ -16,15 +17,19 @@ h2 {
   border-radius: 10px;
   padding: 1rem;
   min-width: 40%;
-  height: 20rem;
+  height: 27rem;
+}
+#middle-skills-div {
+  margin-top: 2rem;
 }
 .skill-title {
   font-size: 1.5em;
   font-weight: 200;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 .skill-content {
   margin: 2rem;
   text-align: center;
   font-weight: 400;
+  font-size: 2vmin;
 }

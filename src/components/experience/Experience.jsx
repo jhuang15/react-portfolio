@@ -28,7 +28,9 @@ const Experience = () => {
           o o o
           <h2 className="skill-title">PROGRAMMING LANGUAGES</h2>
           <hr />
-          <p className="skill-content">java, javascript, python, html, css</p>
+          <p className="skill-content">HTML, CSS, Javascript, Java, Python</p>
+          <p className="skill-content"><b>Frameworks: </b>React, Express, Django</p>
+          <p className="skill-content"><b>Database: </b>MongoDB, SQL </p>
 
         </div>
         <div className="skills-div" id="middle-skills-div">
