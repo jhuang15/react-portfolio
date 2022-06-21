@@ -11,7 +11,8 @@ body#contact {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: stretch;
+  min-width: 50%;
+  margin-right: 2rem;
 }
 .left-div {
   display: flex;
@@ -20,10 +21,10 @@ body#contact {
   width: stretch;
   border: 1px solid black;
   border-radius: 10px;
-  width: stretch;
+  min-width: 100%;
   height: fit-content;
-  margin: 4vmin 10vmin 10vmin 10vmin;
   padding: 0px 30px 30px 30px;
+  margin: 2rem 0rem 8rem 0rem;
 }
 #contact-header {
    align-items: center;
@@ -33,7 +34,8 @@ body#contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: stretch;
+  min-width: 50%;
+  margin-bottom: 4rem;
 }
 .contact-item {
   border: 1px solid black;
@@ -42,5 +44,5 @@ body#contact {
   padding: 20px;
 }
 .hr-contact {
-  margin-bottom: 40px;
+  margin: 1rem 0rem 1rem 0rem;
 }

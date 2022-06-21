@@ -24,14 +24,12 @@ const Contact = () => {
       <div className="column-contact">
       <div className="header-corner" id="contact-header"> 
           <h4>Jenny Huang</h4>
-          <p>SOFTWARE ENGINEER</p>
-          <p>FULL-STACK ENGINEER</p>
+          <p>FULL-STACK DEVELOPER</p>
         </div> 
       <div className="left-div">
         <div className="contactme-div">
           <div className="hr-contact">
-          <button className="button" id="menu-btn" data-modal="modalOne">ooo</button>
-          <Nav />
+          o o o
           <hr />
           </div>
           <h2>Contact Me</h2>

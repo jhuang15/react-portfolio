@@ -46,8 +46,7 @@ const Header = () => {
         <div className="div-column">
           <div className="header-corner"> 
             <h4>Jenny Huang</h4>
-            <p>SOFTWARE ENGINEER</p>
-            <p>FULL-STACK ENGINEER</p>
+            <p>FULL-STACK DEVELOPER</p>
           </div> 
           <div className="head-photo">
             <img src="https://i.imgur.com/D0rFcIZ.jpg" alt="me"></img>
