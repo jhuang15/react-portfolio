@@ -12,12 +12,24 @@
   justify-content: center;
   margin-bottom: 2rem;
 }
-#project-div {
+.project-div {
   border: 1px solid black;
   border-radius: 10px;
   padding: 1rem 2rem 2rem 2rem;
   margin: 0.3rem;
   min-width: 35%;
+}
+#background-img1 {
+  background-image: url("../../assets/mint.png");
+  background-size: cover;
+  background-position: center;
+}
+#background-img1:hover {
+  background-image: none;
+}
+.project-div:hover {
+  background-image: none;
+  background-color: var(--color-bg-variant);
 }
 #project-title {
   display: flex;
@@ -26,15 +38,15 @@
   font-size: 4vh;
 }
 p {
-  font-size: 1.5vmin;
+  font-size: 1.7vmin;
 }
 .btn-container {
   display: flex;
   justify-content: center;
 }
 .project-btn {
-  background-color: var(--color-bg);
-  border: 1px solid black;
+  background-color: var(--color-bg-variant);
+  border: 1px solid var(--color-bg-variant);
   border-radius: 10px;
   padding: 1vh;
   margin: 1vh;
@@ -42,7 +54,7 @@ p {
 }
 .project-btn:hover {
   background-color: var(--color-bg-variant);
-  border: 1px solid var(--color-bg-variant);
+  border: 1px solid black;
 }
 #flex-hr {
   width: stretch;

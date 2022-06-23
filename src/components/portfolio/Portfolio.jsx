@@ -23,7 +23,7 @@ const Portfolio = () => {
     <div className="container" id="portfolio-container">
       <h1 className="portfolio-title">Portfolio</h1>
       <div className="content-row">
-        <div id="project-div">
+        <div className="project-div" id="background-img1">
           o o o
           <hr />
           <h2 id="project-title">Wedding Site Planner</h2>
@@ -34,7 +34,7 @@ const Portfolio = () => {
             <a href="https://mint-wedding.herokuapp.com/" className="project-btn">Live Demo</a>
           </div>
         </div>
-        <div id="project-div">
+        <div className="project-div">
           o o o
           <hr />
           <h2 id="project-title">OnlyCakes</h2>
@@ -45,7 +45,7 @@ const Portfolio = () => {
             <a href="https://onlycakes.herokuapp.com/" className="project-btn">Live Demo</a>
           </div>
         </div>
-        <div id="project-div">
+        <div className="project-div">
           o o o
           <hr />
           <h2 id="project-title">Inventory Tracker</h2>
@@ -56,7 +56,7 @@ const Portfolio = () => {
             <a href="https://bevo-sei.herokuapp.com/" className="project-btn">Live Demo</a>
           </div>
         </div>
-        <div id="project-div">
+        <div className="project-div">
           o o o
           <hr />
           <h2 id="project-title">Concentration</h2>
