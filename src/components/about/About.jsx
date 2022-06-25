@@ -19,7 +19,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="container-wrapper">
+    <div className="container-wrapper" id="about-me">
     <div className="left-container">
       
     </div>

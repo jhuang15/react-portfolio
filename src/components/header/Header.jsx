@@ -1,10 +1,6 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import Nav from '../nav/Nav';
-import About from '../about/About';
-import Experience from '../experience/Experience';
-import Portfolio from '../portfolio/Portfolio';
-import Contact from '../contact/Contact';
+import { Link } from 'react-scroll';
+import { BiSearchAlt } from "react-icons/bi";
 import './header.css';
 
 const Header = () => {
@@ -36,11 +32,10 @@ const Header = () => {
           
           <div className="content-btns">
             <hr />
-            <Nav />
-            <Link className="btn-link" to="/about-me">about me</Link>           
-            <Link className="btn-link" to="/experience">experience</Link>         
-            <Link className="btn-link" to="/portfolio">portfolio</Link>
-            <Link className="btn-link" to="/contact-me">contact me</Link>
+            <Link className="btn-link" activeClass="active" to="about-me" spy={true} smooth={true} ><BiSearchAlt />about me</Link>           
+            <Link className="btn-link" to="experience" spy={true} smooth={true}><BiSearchAlt />experience</Link>         
+            <Link className="btn-link" to="portfolio" spy={true} smooth={true}><BiSearchAlt />portfolio</Link>
+            <Link className="btn-link" to="contact-me" spy={true} smooth={true}><BiSearchAlt />contact me</Link>
           </div>
         </div>
         <div className="div-column">
@@ -53,10 +48,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <About />
-      <Experience />
-      <Portfolio />
-      <Contact />
     </div>
   )
 }
