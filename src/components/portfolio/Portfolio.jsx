@@ -32,8 +32,8 @@ const Portfolio = () => {
               <p>Built a full-stack CRUD application on MERN stack using MongoDB, Express, React and Node.js to create, read update and delete data on a wedding website making application.describe the project, languages used, framework, functions, etc. </p>
             </div>
             <div className="btn-container">
-              <a href="https://github.com/jhuang15/mint" className="project-btn" target="_blank">Github</a>
-              <a href="https://mint-wedding.herokuapp.com/" className="project-btn" target="_blank">Live Demo</a>
+              <a href="https://github.com/jhuang15/mint" className="project-btn" target="_blank" rel="noreferrer">Github</a>
+              <a href="https://mint-wedding.herokuapp.com/" className="project-btn" target="_blank" rel="noreferrer">Live Demo</a>
             </div>
           </div>
           <div className="project-n-btn">
@@ -45,8 +45,8 @@ const Portfolio = () => {
               <p>Collaborated in a team to develope a web application with Django, Javascript and Python3 to implement full-stack CRUD functionalities. </p>
             </div>
             <div className="btn-container">
-              <a href="https://github.com/jhuang15/onlycakes" className="project-btn" target="_blank">Github</a>
-              <a href="https://onlycakes.herokuapp.com/" className="project-btn" target="_blank">Live Demo</a>
+              <a href="https://github.com/jhuang15/onlycakes" className="project-btn" target="_blank" rel="noreferrer">Github</a>
+              <a href="https://onlycakes.herokuapp.com/" className="project-btn" target="_blank" rel="noreferrer">Live Demo</a>
             </div>
           </div>
           <div className="project-n-btn">
@@ -59,8 +59,8 @@ const Portfolio = () => {
 
             </div>
             <div className="btn-container">
-              <a href="https://github.com/jhuang15/bevo" className="project-btn" target="_blank">Github</a>
-              <a href="https://bevo-sei.herokuapp.com/" className="project-btn" target="_blank">Live Demo</a>
+              <a href="https://github.com/jhuang15/bevo" className="project-btn" target="_blank" rel="noreferrer">Github</a>
+              <a href="https://bevo-sei.herokuapp.com/" className="project-btn" target="_blank" rel="noreferrer">Live Demo</a>
             </div>
           </div>
           <div className="project-n-btn"> 
@@ -72,13 +72,10 @@ const Portfolio = () => {
               <p>A memory game</p>
             </div>
             <div className="btn-container">
-              <a href="https://github.com/jhuang15/concentration" className="project-btn" target="_blank">Github</a>
-              <a href="https://jhuang15.github.io/concentration/" className="project-btn" target="_blank">Live Demo</a>
+              <a href="https://github.com/jhuang15/concentration" className="project-btn" target="_blank" rel="noreferrer">Github</a>
+              <a href="https://jhuang15.github.io/concentration/" className="project-btn" target="_blank" rel="noreferrer">Live Demo</a>
             </div>
           </div>
-        </div>
-        <div className="content-row">
-
         </div>
 
       </div>

@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import Nav from '../nav/Nav';
 import './experience.css';
 
 const Experience = () => {

@@ -22,20 +22,21 @@ const Header = () => {
 
   return (
     <div className="container">
-      <button className="button" id="menu-btn" data-modal="modalOne">ooo</button>
+      
       <div className="div-row">
+      ooo
         <div className="table-of-content">
           <div className="name">
             <h1 id="first">Jenny</h1>
-            <h1 id="last">Huang</h1>
+            <h1 id="last"><BiSearchAlt size={25}/>Huang</h1>
           </div>
           
           <div className="content-btns">
             <hr />
-            <Link className="btn-link" activeClass="active" to="about-me" spy={true} smooth={true} ><BiSearchAlt />about me</Link>           
-            <Link className="btn-link" to="experience" spy={true} smooth={true}><BiSearchAlt />experience</Link>         
-            <Link className="btn-link" to="portfolio" spy={true} smooth={true}><BiSearchAlt />portfolio</Link>
-            <Link className="btn-link" to="contact-me" spy={true} smooth={true}><BiSearchAlt />contact me</Link>
+            <Link className="btn-link" activeClass="active" to="about-me" spy={true} smooth={true} ><BiSearchAlt size={25}/>about me</Link>           
+            <Link className="btn-link" to="experience" spy={true} smooth={true}><BiSearchAlt size={25}/>experience</Link>         
+            <Link className="btn-link" to="portfolio" spy={true} smooth={true}><BiSearchAlt size={25}/>portfolio</Link>
+            <Link className="btn-link" to="contact-me" spy={true} smooth={true}><BiSearchAlt size={25}/>contact me</Link>
           </div>
         </div>
         <div className="div-column">

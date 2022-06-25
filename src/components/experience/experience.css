@@ -3,7 +3,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vmin;
 }
 h2 {
   text-align: center;
@@ -34,5 +33,5 @@ h2 {
   margin: 2rem;
   text-align: center;
   font-weight: 400;
-  font-size: 2vmin;
+  font-size: 1vw;
 }

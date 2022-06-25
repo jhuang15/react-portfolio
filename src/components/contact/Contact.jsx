@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
-import Nav from '../nav/Nav';
+import { MdEmail } from "react-icons/md";
+import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 import './contact.css';
 
 const Contact = () => {
@@ -39,9 +41,9 @@ const Contact = () => {
         </div>
 
         <div className="right-div">
-          <div className="contact-item">jchuang1020@gmail.com</div>
-          <div className="contact-item"><a href="https://www.linkedin.com/in/jenny-huang-atl/">https://www.linkedin.com/in/jenny-huang-atl/</a></div>
-          <div className="contact-item"><a href="https://github.com/jhuang15">https://github.com/jhuang15</a></div>
+          <div className="contact-item"><MdEmail size={25}/>jchuang1020@gmail.com</div>
+          <div className="contact-item"><BsLinkedin size={25}/><a href="https://www.linkedin.com/in/jenny-huang-atl/">https://www.linkedin.com/in/jenny-huang-atl/</a></div>
+          <div className="contact-item"><BsGithub size={25}/><a href="https://github.com/jhuang15">https://github.com/jhuang15</a></div>
         </div>
       </div>
 

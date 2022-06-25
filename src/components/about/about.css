@@ -1,6 +1,6 @@
 #about-me {
   margin: 5rem 9rem 5rem 9rem;
-  padding-top: 5vh;
+  padding-top: 5vw;
 }
 .container-wrapper {
   display: flex;
@@ -23,20 +23,25 @@
   color: black;
 }
 .aboutme-content {
-  padding: 10vmin;
+  padding: 5vw;
 }
 .about-text {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  font-size: 2vmin;
+  font-size: 1em;
 }
 h2 {
-  font-size: 8vmin;
+  font-size: 4em;
 }
 .resume-btn {
+  display: inline-flex;
+  align-items: center;
   border: 1px solid black;
   border-radius: 10px;
-  padding: 1rem;
+  padding: 0.7rem;
   margin: 1rem;
-
+  gap: 1em;
+}
+.resume-btn:hover {
+  background-color: var(--color-bg-variant);
 }
