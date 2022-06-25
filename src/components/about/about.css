@@ -1,8 +1,11 @@
+#about-me {
+  margin: 5rem 9rem 5rem 9rem;
+  padding-top: 5vh;
+}
 .container-wrapper {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  margin: 2rem;
+  
 }
 .left-container {
   background-image: url("../../assets/aboutme-img.png");

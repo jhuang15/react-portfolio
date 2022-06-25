@@ -1,6 +1,13 @@
+#portfolio {
+  padding-top: 5vh;
+}
 #portfolio-container {
   border: none;
-  height: fit-content;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
   
 }
 .portfolio-title {
@@ -8,28 +15,56 @@
 }
 .content-row {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   margin-bottom: 2rem;
+}
+.project-n-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.3rem;
+  width: 20em;
+  
 }
 .project-div {
   border: 1px solid black;
   border-radius: 10px;
   padding: 1rem 2rem 2rem 2rem;
   margin: 0.3rem;
-  min-width: 35%;
+  color: transparent;
+  height: 100%;
+  
 }
 #background-img1 {
   background-image: url("../../assets/mint.png");
   background-size: cover;
   background-position: center;
 }
-#background-img1:hover {
+#background-img2 {
+  background-image: url("../../assets/onlycakes-img.png");
+  background-size: cover;
+  background-position: center;
+}
+#background-img3 {
+  background-image: url("../../assets/bevo-img.png");
+  background-size: cover;
+  background-position: center;
+}
+#background-img4 {
+  background-image: url("../../assets/concentration.png");
+  background-size: cover;
+  background-position: center;
+}
+#background-img1:hover, 
+#background-img2:hover,
+#background-img3:hover,
+#background-img4:hover {
   background-image: none;
+  color: black;
 }
 .project-div:hover {
   background-image: none;
-  background-color: var(--color-bg-variant);
+  background-color: var(--color-bg);
 }
 #project-title {
   display: flex;
@@ -43,14 +78,17 @@ p {
 .btn-container {
   display: flex;
   justify-content: center;
+  gap: 1vh;
+  width: 90%;
 }
 .project-btn {
-  background-color: var(--color-bg-variant);
-  border: 1px solid var(--color-bg-variant);
+  background-color: var(--color-bg);
+  border: 1px solid black;
   border-radius: 10px;
   padding: 1vh;
-  margin: 1vh;
   font-size: 1.5vh;
+  text-align: center;
+  width: 50%;
 }
 .project-btn:hover {
   background-color: var(--color-bg-variant);
@@ -59,14 +97,4 @@ p {
 #flex-hr {
   width: stretch;
   margin-bottom: 10px;
-}
-#top {
-  margin: 0rem 0rem 0rem 3rem;
-}
-#bottom {
-  margin: -2rem 0rem 0rem 6rem;
-}
-.img {
-  width: 30vw;
-  height: 30vh;
 }

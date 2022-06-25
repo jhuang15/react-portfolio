@@ -1,6 +1,9 @@
 #skills-container {
-  height: fit-content;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vmin;
 }
 h2 {
   text-align: center;
@@ -8,16 +11,16 @@ h2 {
 }
 .skills-div-wrapper {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   gap: 2rem;
+  width: 80%
 }
 .skills-div {
   border: 1px solid black;
   border-radius: 10px;
   padding: 1rem;
   min-width: 40%;
-  height: 27rem;
+  height: 100%;
 }
 #middle-skills-div {
   margin-top: 2rem;
