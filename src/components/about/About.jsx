@@ -22,7 +22,6 @@ const About = () => {
     <div className="container-wrapper">
     <div className="left-container">
       
-      <p>img</p>
     </div>
     <div className="right-container">
     

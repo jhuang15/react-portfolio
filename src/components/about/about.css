@@ -5,8 +5,11 @@
   margin: 2rem;
 }
 .left-container {
-  width: stretch;
-  height: stretch;
+  background-image: url("../../assets/aboutme-img.png");
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
   margin-right: 10px;
 }
 .right-container {

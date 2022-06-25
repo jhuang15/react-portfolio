@@ -29,8 +29,8 @@ const Portfolio = () => {
           <h4>MERN-Stack Web Application</h4>
           <p>Built a full-stack CRUD application on MERN stack using MongoDB, Express, React and Node.js to create, read update and delete data on a wedding website making application.describe the project, languages used, framework, functions, etc. </p>
           <div className="btn-container">
-            <a href="https://github.com/jhuang15/mint" className="project-btn">Github</a>
-            <a href="https://mint-wedding.herokuapp.com/" className="project-btn">Live Demo</a>
+            <a href="https://github.com/jhuang15/mint" className="project-btn" target="_blank">Github</a>
+            <a href="https://mint-wedding.herokuapp.com/" className="project-btn" target="_blank">Live Demo</a>
           </div>
         </div>
         <div className="project-div">
@@ -40,8 +40,8 @@ const Portfolio = () => {
           <h4>Full-CRUD Django Web Application</h4>
           <p>Collaborated in a team to develope a web application with Django, Javascript and Python3 to implement full-stack CRUD functionalities. </p>
           <div className="btn-container">
-            <a href="https://github.com/jhuang15/onlycakes" className="project-btn">Github</a>
-            <a href="https://onlycakes.herokuapp.com/" className="project-btn">Live Demo</a>
+            <a href="https://github.com/jhuang15/onlycakes" className="project-btn" target="_blank">Github</a>
+            <a href="https://onlycakes.herokuapp.com/" className="project-btn" target="_blank">Live Demo</a>
           </div>
         </div>
         <div className="project-div">
@@ -51,8 +51,8 @@ const Portfolio = () => {
           <h4>Full-CRUD application built using Express </h4>
           <p>An inventory tracker for a bar/restaurant. Performs full CRUD</p>
           <div className="btn-container">
-            <a href="https://github.com/jhuang15/bevo" className="project-btn">Github</a>
-            <a href="https://bevo-sei.herokuapp.com/" className="project-btn">Live Demo</a>
+            <a href="https://github.com/jhuang15/bevo" className="project-btn" target="_blank">Github</a>
+            <a href="https://bevo-sei.herokuapp.com/" className="project-btn" target="_blank">Live Demo</a>
           </div>
         </div>
         <div className="project-div">
@@ -62,8 +62,8 @@ const Portfolio = () => {
           <h4>A memory game using vanilla Javascript </h4>
           <p>A memory game</p>
           <div className="btn-container">
-            <a href="https://github.com/jhuang15/concentration" className="project-btn">Github</a>
-            <a href="https://jhuang15.github.io/concentration/" className="project-btn">Live Demo</a>
+            <a href="https://github.com/jhuang15/concentration" className="project-btn" target="_blank">Github</a>
+            <a href="https://jhuang15.github.io/concentration/" className="project-btn" target="_blank">Live Demo</a>
           </div>
         </div>
       </div>
