@@ -6,7 +6,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 100%;
+  height: fit-content;
   
 }
 .portfolio-title {
@@ -15,6 +16,8 @@
 .content-row {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
   margin-bottom: 2rem;
 }
 .project-n-btn {
@@ -26,6 +29,7 @@
   
 }
 .project-div {
+  
   border: 1px solid black;
   border-radius: 10px;
   padding: 1rem 2rem 2rem 2rem;
