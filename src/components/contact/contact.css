@@ -46,3 +46,14 @@
 .hr-contact {
   margin: 1rem 0rem 1rem 0rem;
 }
+
+@media (max-width: 720px) {
+  #contact-container {
+    flex-direction: column;
+    margin-bottom: 10rem;
+  }
+  .left-div {
+    margin-bottom: 2rem;
+  }
+  
+}

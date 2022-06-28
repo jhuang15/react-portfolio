@@ -29,7 +29,6 @@
   
 }
 .project-div {
-  
   border: 1px solid black;
   border-radius: 10px;
   padding: 1rem 2rem 2rem 2rem;
@@ -56,14 +55,16 @@
   background-image: url("../../assets/concentration.png");
   background-size: cover;
   background-position: center;
+  
 }
 #background-img1:hover, 
 #background-img2:hover,
 #background-img3:hover,
-#background-img4:hover {
+#background-img4:hover{
   background-image: none;
   color: black;
 }
+
 .project-div:hover {
   background-image: none;
   background-color: var(--color-bg);

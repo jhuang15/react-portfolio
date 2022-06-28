@@ -26,7 +26,7 @@ const Portfolio = () => {
           <div className="project-n-btn">
             <div className="project-div" id="background-img1">
               o o o
-              <hr />
+              
               <h2 id="project-title">Wedding Site Planner</h2>
               <h4>MERN-Stack Web Application</h4>
               <p>Built a full-stack CRUD application on MERN stack using MongoDB, Express, React and Node.js to create, read update and delete data on a wedding website making application.describe the project, languages used, framework, functions, etc. </p>
@@ -39,7 +39,7 @@ const Portfolio = () => {
           <div className="project-n-btn">
             <div className="project-div" id="background-img2">
               o o o
-              <hr />
+              
               <h2 id="project-title">OnlyCakes</h2>
               <h4>Full-CRUD Django Web Application</h4>
               <p>Collaborated in a team to develope a web application with Django, Javascript and Python3 to implement full-stack CRUD functionalities. </p>
@@ -52,7 +52,7 @@ const Portfolio = () => {
           <div className="project-n-btn">
             <div className="project-div" id="background-img3">
               o o o
-              <hr />
+              
               <h2 id="project-title">Inventory Tracker</h2>
               <h4>Full-CRUD application built using Express </h4>
               <p>An inventory tracker for a bar/restaurant. Performs full CRUD</p>
@@ -66,7 +66,7 @@ const Portfolio = () => {
           <div className="project-n-btn"> 
             <div className="project-div" id="background-img4">
               o o o
-              <hr />
+              
               <h2 id="project-title">Concentration</h2>
               <h4>A memory game using vanilla Javascript </h4>
               <p>A memory game</p>
