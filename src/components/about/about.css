@@ -44,3 +44,11 @@ h2 {
 .resume-btn:hover {
   background-color: var(--color-bg-variant);
 }
+
+@media  (max-width: 420px){
+  .container-wrapper {
+    margin: auto;
+    width: 50%;
+    flex-direction: column-reverse;
+  }
+}
