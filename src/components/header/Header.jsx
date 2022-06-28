@@ -22,9 +22,9 @@ const Header = () => {
 
   return (
     <div className="container">
-      
-      <div className="div-row">
       ooo
+      <div className="div-row">
+      
         <div className="table-of-content">
           <div className="name">
             <h1 id="first">Jenny</h1>
