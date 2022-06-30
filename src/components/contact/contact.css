@@ -52,14 +52,22 @@
   margin: 1rem 0rem 1rem 0rem;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 420px) {
   #contact-container {
     flex-direction: column;
-    margin-bottom: 10rem;
+    margin-bottom: 15rem;
+    padding: 0;
+  }
+  .column-contact {
+    margin: auto;
   }
   .left-div {
-    margin-bottom: 2rem;
+    margin: 0;
   }
-  
+  .contact-item {
+    font-size: 3.3vw;
+    margin: 15px;
+  }
+
   
 }
