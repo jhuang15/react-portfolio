@@ -3,21 +3,6 @@ import { HiOutlineDocumentDownload } from "react-icons/hi";
 import './about.css';
 
 const About = () => {
-  useEffect(function () {
-    const modalBtns = document.querySelectorAll(".button");
-
-    modalBtns.forEach(function (btn) {
-      btn.onclick = function () {
-        let modal = btn.getAttribute("data-modal");
-        document.getElementById(modal).style.display = "block";
-      };
-      window.onclick = function (event) {
-        if (event.target.className === "modal") {
-          event.target.style.display = "none";
-        }
-      };
-    });
-  }, []);
 
   return (
     <div id="about-me">

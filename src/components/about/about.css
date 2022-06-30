@@ -42,9 +42,13 @@
 }
 
 @media  (max-width: 420px){
+  #about-me {
+    margin: 1.3rem;
+    
+  }
   .container-wrapper {
     margin: auto;
-    width: 50%;
+    width: 100%;
     flex-direction: column-reverse;
   }
 }
