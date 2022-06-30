@@ -35,7 +35,7 @@ h2 {
   font-size: 0.9rem;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 640px) {
   #skills-container {
     padding: 0;
   }

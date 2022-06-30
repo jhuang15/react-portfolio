@@ -41,7 +41,7 @@
   background-color: var(--color-bg-variant);
 }
 
-@media  (max-width: 420px){
+@media  (max-width: 640px){
   #about-me {
     margin: 1.3rem;
     

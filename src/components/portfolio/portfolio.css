@@ -101,7 +101,7 @@ p {
   border: 1px solid black;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 640px) {
   #project-title {
     font-size: 8vmin;
   }
