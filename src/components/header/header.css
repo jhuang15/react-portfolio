@@ -37,7 +37,7 @@
   align-items: center;
   margin-top: -30px;
   font-size: 4.8vw;
-  gap: 4rem;
+  gap: 4vw;
   color: var(--color-primary-variant);
 }
 .content-btns {
@@ -84,29 +84,33 @@ img {
 }
 
 @media (max-width: 420px) {
-  .container {
-    height: fit-content;
-  }
   .div-row {
     flex-direction: column-reverse;
     justify-content: center;
     width: 100%;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
   }
   .table-of-content {
-    margin: 0px;
+    margin-top: 2rem;
   }
   .name {
     font-size: 0.8rem;
   }
-  #first {
+  #hi {
     margin-left: 4rem;
+    font-size: 4vw;
+  }
+  #last {
+    font-size: 8vw;
+    margin-top: 0;
+    gap: 3vw;
   }
   .btn-link {
     gap: 5rem;
   }
   img {
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
   }
 }
