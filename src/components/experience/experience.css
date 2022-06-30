@@ -36,6 +36,9 @@ h2 {
 }
 
 @media (max-width: 420px) {
+  #skills-container {
+    padding: 0;
+  }
   .skills-div-wrapper {
     flex-direction: column;
   }

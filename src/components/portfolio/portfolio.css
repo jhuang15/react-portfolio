@@ -100,3 +100,17 @@ p {
   background-color: var(--color-bg-variant);
   border: 1px solid black;
 }
+
+@media (max-width: 420px) {
+  #project-title {
+    font-size: 8vmin;
+  }
+  .btn-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .project-btn {
+    width: 95%;
+  }
+}
