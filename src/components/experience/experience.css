@@ -15,10 +15,10 @@ h2 {
   width: 80%
 }
 .skills-div {
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 10px;
   padding: 1rem;
-  min-width: 40%;
+  min-width: 50%;
   height: 100%;
 }
 #middle-skills-div {
@@ -27,13 +27,12 @@ h2 {
 .skill-title {
   font-size: 1.5em;
   font-weight: 200;
-  padding: 0.5rem;
+  padding: 0.2rem;
 }
 .skill-content {
-  margin: 2rem;
-  text-align: center;
+  margin: 1rem;
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 @media (max-width: 420px) {

@@ -1,5 +1,5 @@
 #portfolio {
-  padding-top: 5vw;
+  padding-top: 2vw;
 }
 #portfolio-container {
   border: none;
@@ -12,6 +12,7 @@
 }
 .portfolio-title {
   text-align: center;
+  font-size: 4em;
 }
 .content-row {
   display: flex;
@@ -67,12 +68,12 @@
 
 .project-div:hover {
   background-image: none;
-  background-color: var(--color-bg);
+  background-color: var(--color-bg-variant);
 }
 #project-title {
   display: flex;
   justify-content: center;
-  font-size: 3vmin;
+  font-size: 2vw;
 }
 p {
   font-size: 0.9em;
@@ -84,9 +85,12 @@ p {
   width: 90%;
 }
 .project-btn {
-  background-color: var(--color-bg);
+  display: inline-flex;
+  justify-content: center;
+  gap: 0.2vw;
+  background-color: var(--color-primary);
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 0.5vw;
   font-size: 0.8rem;
   text-align: center;

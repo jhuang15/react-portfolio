@@ -22,21 +22,21 @@ const Header = () => {
 
   return (
     <div className="container">
-      ooo
+      <p className="dots">o o o</p>
       <div className="div-row">
       
         <div className="table-of-content">
           <div className="name">
-            <h1 id="first">Jenny</h1>
-            <h1 id="last"><BiSearchAlt size={25}/>Huang</h1>
+            <h1 id="hi">Hi, I'm</h1>
+            <h1 id="last"><BiSearchAlt size={25} fill="#000000"/>Jenny Huang</h1>
           </div>
           
           <div className="content-btns">
             <hr />
-            <Link className="btn-link" activeClass="active" to="about-me" spy={true} smooth={true} ><BiSearchAlt size={25}/>about me</Link>           
-            <Link className="btn-link" to="experience" spy={true} smooth={true}><BiSearchAlt size={25}/>experience</Link>         
-            <Link className="btn-link" to="portfolio" spy={true} smooth={true}><BiSearchAlt size={25}/>portfolio</Link>
-            <Link className="btn-link" to="contact-me" spy={true} smooth={true}><BiSearchAlt size={25}/>contact me</Link>
+            <Link className="btn-link" activeClass="active" to="about-me" spy={true} smooth={true} ><BiSearchAlt size={25} fill="#000000"/>about me</Link>           
+            <Link className="btn-link" to="experience" spy={true} smooth={true}><BiSearchAlt size={25} fill="#000000"/>experience</Link>         
+            <Link className="btn-link" to="portfolio" spy={true} smooth={true}><BiSearchAlt size={25} fill="#000000"/>portfolio</Link>
+            <Link className="btn-link" to="contact-me" spy={true} smooth={true}><BiSearchAlt size={25} fill="#000000"/>contact me</Link>
           </div>
         </div>
         <div className="div-column">

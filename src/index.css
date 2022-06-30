@@ -10,10 +10,10 @@
   text-decoration: none;
 }
 :root {
-  --color-bg: #ECE5DF;
-  --color-bg-variant: #E9CEC0;
-  --color-primary: #847F7A;
-  --color-primary-variant: #C4B6A7;
+  --color-bg: #ffd460;
+  --color-bg-variant: #ea5455;
+  --color-primary: #f07b3f;
+  --color-primary-variant: #2d4059;
   --color-white: #ffffff;
   --color-light: #a1a1a1;
   --container-width-lg: 75%;
@@ -29,17 +29,19 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   background: var(--color-bg);
-  color: var(--color-white);
+  color: black;
 }
 .container {
   display: flex;
   flex-direction: column;
-  
   width: var(--container-width-lg);
   margin: 0 auto;
 }
 h1, h2, h3, h4, h4, h5 {
   font-weight: 500;
+}
+h2 {
+  font-size: 10vmin;
 }
 p {
   font-weight: 200;
@@ -47,6 +49,10 @@ p {
 }
 hr {
   border: 1px solid black;
+}
+.dots {
+  color: black;
+  font-weight: 400;
 }
 .modal {
   display: none;

@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: center;
   width: stretch;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 10px;
   min-width: 100%;
   height: fit-content;
@@ -26,6 +26,7 @@
 #contact-header {
    align-items: center;
    margin: 0px;
+   color: var(--color-primary-variant);
 }
 .right-div {
   display: flex;
@@ -37,11 +38,15 @@
 .contact-item {
   display: inline-flex;
   align-items: center;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 50px;
   margin: 20px;
   padding: 20px;
   gap: 2em;
+}
+.contact-item:hover {
+  background-color: var(--color-bg-variant);
+  color: var(--color-bg);
 }
 .hr-contact {
   margin: 1rem 0rem 1rem 0rem;
@@ -55,5 +60,6 @@
   .left-div {
     margin-bottom: 2rem;
   }
+  
   
 }

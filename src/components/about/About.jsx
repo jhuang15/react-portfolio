@@ -26,7 +26,7 @@ const About = () => {
         </div>
         <div className="right-container">
           <div className="aboutme-content">
-            o o o
+          <p className="dots">o o o</p>
             <h2>About Me</h2>
             <hr />
             <p className="about-text">Hi! My name is <b>Jenny Huang</b> and welcome to my portfolio! Here's a quick introduction about myself, I was born and raised in the silicon peach of <b>Atlanta, GA</b>. I graduated from <b>Georgia State University</b> with a bachelor's in computer science and recently completed an intense software engineering immersive course at <b>General Assembly</b>. I've always been interested in the field of technology and found I fit best in the middle of front-end and back-end development. My approach to life and code is simplicity at its finest: short and straight-forward code and minimalistic designs are my style.</p>
