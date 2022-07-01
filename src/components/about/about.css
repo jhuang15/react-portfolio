@@ -15,6 +15,7 @@
   margin-right: 10px;
 }
 .right-container {
+  background-color: white;
   width: stretch;
   height: fit-content;
   border: 2px solid black;
@@ -30,6 +31,7 @@
   font-size: 1em;
 }
 .resume-btn {
+  background-color: var(--color-bg);
   display: inline-flex;
   align-items: center;
   border: 2px solid black;
