@@ -1,5 +1,5 @@
 #about-me {
-  margin: 5rem 9rem 5rem 9rem;
+  margin: 5rem 6rem 5rem 6rem;
   padding-top: 5vw;
 }
 .container-wrapper {
@@ -8,11 +8,13 @@
 }
 .left-container {
   background-image: url("../../assets/aboutme-img.png");
-  background-size: 70%;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 35rem;
+  height: 35rem;
   margin-right: 10px;
+  align-self: center;
 }
 .right-container {
   background-color: white;
@@ -21,6 +23,10 @@
   border: 2px solid black;
   border-radius: 15px;
   color: black;
+}
+.about-header {
+  font-size: 4rem;
+  text-align: center;
 }
 .aboutme-content {
   padding: 2rem;
@@ -43,14 +49,18 @@
   background-color: var(--color-bg-variant);
 }
 
-@media  (max-width: 640px){
+@media  (max-width: 900px){
   #about-me {
     margin: 1.3rem;
-    
   }
   .container-wrapper {
     margin: auto;
     width: 100%;
-    flex-direction: column-reverse;
+    flex-direction: column;
+  }
+  .left-container {
+    width: 18rem;
+    height: 18rem;
+    
   }
 }

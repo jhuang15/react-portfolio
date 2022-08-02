@@ -35,7 +35,7 @@ const Contact = () => {
               <p className="dots">o o o</p>
                 <hr />
               </div>
-              <h2>Contact Me</h2>
+              <h2 className="contact-header">Contact Me</h2>
             </div>
           </div>
         </div>
