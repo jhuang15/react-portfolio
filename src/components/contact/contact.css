@@ -70,21 +70,7 @@
   
 }
 @media (max-width: 680px) {
-  #contact-container {
-    flex-direction: column;
-    margin-bottom: 15rem;
-    padding: 0;
-  }
-  .column-contact {
-    margin: auto;
-  }
-  .contact-item {
-    font-size: 3.3vw;
-    margin: 15px;
-  }
   .contact-header {
-    font-size: 4rem;
+    font-size: 3rem;
   }
-
-  
 }
