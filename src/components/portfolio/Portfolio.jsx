@@ -46,7 +46,7 @@ const Portfolio = () => {
             </div>
             <div className="btn-container">
               <a href="https://github.com/jhuang15/onlycakes" className="project-btn" target="_blank" rel="noreferrer">Github<BsGithub size={16}/></a>
-              <a href="https://onlycakes.herokuapp.com/" className="project-btn" target="_blank" rel="noreferrer">Live Demo<FiExternalLink size={16}/></a>
+              <a href="https://onlycakes.up.railway.app/" className="project-btn" target="_blank" rel="noreferrer">Live Demo<FiExternalLink size={16}/></a>
             </div>
           </div>
           <div className="project-n-btn">
