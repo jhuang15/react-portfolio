@@ -34,7 +34,7 @@ const Portfolio = () => {
             </div>
             <div className="btn-container">
               <a href="https://github.com/jhuang15/mint" className="project-btn" target="_blank" rel="noreferrer">Github<BsGithub size={16}/></a>
-              <a href="https://mint-wedding.herokuapp.com/" className="project-btn" target="_blank" rel="noreferrer">Demo<FiExternalLink size={16}/></a>
+              <a href="https://mint.up.railway.app/" className="project-btn" target="_blank" rel="noreferrer">Demo<FiExternalLink size={16}/></a>
             </div>
           </div>
           <div className="project-n-btn">
