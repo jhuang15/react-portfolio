@@ -27,16 +27,32 @@
   align-items: center;
   margin: 0.3rem;
   width: 20em;
-  
+}
+.project-n-btn:before {
+  content: '';
+  opacity: 0;
+  z-index: 2;
+}
+.project-n-btn:hover:before {
+  opacity: 1;
+  z-index: 1;
 }
 .project-div {
-  border: 1px solid black;
+  border: none;
   border-radius: 10px;
   padding: 1rem 2rem 2rem 2rem;
   margin: 0.5rem;
   color: transparent;
   height: 100%;
+  box-shadow: 0 0 2px #c4c7cc;
+  z-index: 1;
 }
+
+.project-div:hover {
+  filter: brightness(80%);
+  color: black;
+}
+
 #background-img1 {
   background-image: url("../../assets/mint.png");
   background-size: cover;
@@ -58,47 +74,41 @@
   background-position: center;
   
 }
-#background-img1:hover, 
-#background-img2:hover,
-#background-img3:hover,
-#background-img4:hover{
-  background-image: none;
-  color: black;
-}
 
-.project-div:hover {
-  background-image: none;
-  background-color: var(--color-bg-variant);
-}
 #project-title {
   display: flex;
   justify-content: center;
   font-size: 2vw;
 }
+
 p {
   font-size: 0.9em;
 }
+
 .btn-container {
   display: flex;
   justify-content: center;
   gap: 1vw;
   width: 90%;
+  opacity: 0;
 }
+
+.project-n-btn:hover .btn-container {
+  opacity: 1;
+}
+
 .project-btn {
   display: inline-flex;
   justify-content: center;
   gap: 0.2vw;
   background-color: var(--color-primary);
-  border: 1px solid black;
+  border: 1px solid #ffffff;
   border-radius: 20px;
   padding: 0.5vw;
   font-size: 0.8rem;
   text-align: center;
   width: 50%;
-}
-.project-btn:hover {
-  background-color: var(--color-bg-variant);
-  border: 1px solid black;
+  z-index: 3;
 }
 
 @media (max-width: 640px) {
