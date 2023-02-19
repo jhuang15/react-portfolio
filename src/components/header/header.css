@@ -1,5 +1,6 @@
 .container {
-  border: 2px solid black;
+  border: none;
+  box-shadow: 0 0 2px #c4c7cc;
   border-radius: 20px;
   height: fit-content;
   width: 90%;
@@ -48,7 +49,7 @@
   display: inline-flex;
   align-items: center;
   background-color: var(--color-bg);
-  border: 2px solid var(--color-bg);
+  border: 1px solid var(--color-bg);
   border-radius: 20px;
   width: 100%;
   margin: 0.2em;
@@ -59,7 +60,8 @@
   gap: 8rem;
 }
 .btn-link:hover {
-  border: 2px solid black;
+  border: 1px solid #909194;
+  box-shadow: 0 0 2px #c4c7cc;
   background-color: var(--color-primary);
   font-weight: 300;
 }
@@ -80,7 +82,8 @@ img {
   height: 25vw;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid black;
+  border: 1px solid #909194;
+  box-shadow: 0 0 2px #c4c7cc;
 }
 @media (max-width: 900px) {
   .btn-link {

@@ -16,7 +16,8 @@
   flex-direction: column;
   justify-content: center;
   width: stretch;
-  border: 2px solid black;
+  border: 1px solid #909194;
+  box-shadow: 0 0 2px #c4c7cc;
   border-radius: 10px;
   min-width: 100%;
   height: fit-content;
@@ -42,7 +43,8 @@
 .contact-item {
   display: inline-flex;
   align-items: center;
-  border: 2px solid black;
+  border: 1px solid #909194;
+  box-shadow: 0 0 2px #c4c7cc;
   border-radius: 50px;
   margin: 20px;
   padding: 20px;

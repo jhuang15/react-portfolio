@@ -44,6 +44,7 @@
   margin: 0.5rem;
   color: transparent;
   height: 100%;
+  border: 1px solid #909194;
   box-shadow: 0 0 2px #c4c7cc;
   z-index: 1;
 }
