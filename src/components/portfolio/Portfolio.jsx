@@ -57,8 +57,8 @@ const Portfolio = () => {
       </div>
       <div className="rightContainer">
         <img className="project-img" src="https://i.imgur.com/I3GMZ2m.png" alt="Screenshot of Mint Website"/>
-        <a className="project-btn" id="github-btn" href="https://github.com/jhuang15/mint" target="_blank">GitHub <BsGithub size={16}/></a>
-        <a className="project-btn" id="demo-btn" href="https://mint.up.railway.app/" target="_blank">Live Demo <FiExternalLink size={16}/></a>
+        <a className="project-btn" id="github-btn" href="https://github.com/jhuang15/mint" target="_blank" rel="noopener noreferrer">GitHub <BsGithub size={16}/></a>
+        <a className="project-btn" id="demo-btn" href="https://mint.up.railway.app/" target="_blank" rel="noopener noreferrer">Live Demo <FiExternalLink size={16}/></a>
       </div>
       <div id="clear"> </div>
     </div>

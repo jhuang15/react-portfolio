@@ -1,6 +1,4 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-scroll';
-import { BiSearchAlt } from "react-icons/bi";
 import './header.css';
 
 const Header = () => {
@@ -21,8 +19,11 @@ const Header = () => {
   }, []);
 
   return (
+    <div className="header-container">
+      <img id="profile-pic" src="https://i.imgur.com/D0rFcIZ.jpg" alt="me"></img>
+    </div>
     
-    <img id="profile-pic" src="https://i.imgur.com/D0rFcIZ.jpg" alt="me"></img>
+    
           
   )
 }

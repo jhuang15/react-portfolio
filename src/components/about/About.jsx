@@ -1,5 +1,4 @@
 import React from 'react';
-import { HiOutlineDocumentDownload } from "react-icons/hi";
 import './about.css';
 
 const About = () => {

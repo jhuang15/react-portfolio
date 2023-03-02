@@ -32,9 +32,9 @@ const Nav = () => {
         <Link className="nav-link-btn" to="contact-me" spy={true} smooth={true}>Contact Me</Link>
       </div>
       <div className="btns-div>"> 
-        <a className="nav-link-btn" href="mailto: jchuang1020@gmail.com" target="_blank"><MdEmail size={25}/></a>
-        <a className="nav-link-btn" href="https://www.linkedin.com/in/jenny-huang-atl/" target="_blank"><BsLinkedin size={25}/></a>
-        <a className="nav-link-btn" href="https://github.com/jhuang15" target="_blank"><BsGithub size={25}/></a>
+        <a className="nav-link-btn" href="mailto: jchuang1020@gmail.com" target="_blank" rel="noopener noreferrer"><MdEmail size={25}/></a>
+        <a className="nav-link-btn" href="https://www.linkedin.com/in/jenny-huang-atl/" target="_blank" rel="noopener noreferrer"><BsLinkedin size={25}/></a>
+        <a className="nav-link-btn" href="https://github.com/jhuang15" target="_blank" rel="noopener noreferrer"><BsGithub size={25}/></a>
       </div>
       
     </div>
