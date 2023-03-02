@@ -1,11 +1,11 @@
 .header-container {
-  width: 90%;
+  width: 80%;
   height: 100%;
   margin: auto;
-  margin-top: 60px;
+  margin-top: 15vh;
   padding: 60px;
-  background: var(--color-gray);
-  border-radius: 25px;
+  background: var(--color-offwhite);
+  border-radius: 40px;
 }
 
 .header-title-1-2 {
@@ -18,7 +18,7 @@
 #header-title-1 {
   font-size: 2vw;
   font-weight: 500;
-  color: var(--color-offwhite);
+  color: var(--color-primary);
 }
 #header-title-2 {
   font-size: 20px;
@@ -28,7 +28,7 @@
 .header-pic {
   width: 40%;
   float: right;
-  padding: 40px;
+  padding-right: 10vmin;
 }
 
 #clear {

@@ -24,7 +24,7 @@ const Header = () => {
       <div className="header-title-1-2">
         <div id="header-title-1">
           <Typical
-            steps={['Welcome!', 1000, 'I\'m Jenny Huang', 500]}
+            steps={['Hey there!', 1000, 'I\'m Jenny Huang', 500]}
             wrapper="h1"
           />
         </div>
