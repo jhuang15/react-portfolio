@@ -38,9 +38,9 @@ const Contact = () => {
         </div>
 
         <div className="right-div">
-          <a className="contact-item" href="mailto: jchuang1020@gmail.com"><MdEmail size={25}/> jchuang1020@gmail.com</a>
-          <a className="contact-item" href="https://www.linkedin.com/in/jenny-huang-atl/"><BsLinkedin size={25}/> https://www.linkedin.com/in/jenny-huang-atl/</a>
-          <a className="contact-item" href="https://github.com/jhuang15"><BsGithub size={25}/> https://github.com/jhuang15</a>
+          <a className="contact-item" href="mailto: jchuang1020@gmail.com" target="_blank"><MdEmail size={25}/> jchuang1020@gmail.com</a>
+          <a className="contact-item" href="https://www.linkedin.com/in/jenny-huang-atl/" target="_blank"><BsLinkedin size={25}/> https://www.linkedin.com/in/jenny-huang-atl/</a>
+          <a className="contact-item" href="https://github.com/jhuang15" target="_blank"><BsGithub size={25}/> https://github.com/jhuang15</a>
         </div>
       </div>
 
