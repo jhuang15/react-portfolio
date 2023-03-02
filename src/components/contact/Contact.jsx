@@ -31,7 +31,8 @@ const Contact = () => {
           </div>
           <div className="left-div">
             <div className="contactme-div">
-              <h2 className="contact-header">Thanks for visiting my page! Feel free to connect and reach out to me </h2>
+              <h3 className="contact-header">Contact Me</h3>
+              <h5 id="contact-msg">Thanks for visiting my page! Feel free to connect and reach out to me </h5>
             </div>
           </div>
         </div>

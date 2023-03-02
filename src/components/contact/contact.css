@@ -2,14 +2,14 @@
   width: 70%;
   display: flex;
   flex-direction: row;
-  background: var(--color-primary-light)
+  background: var(--color-primary)
 }
 .column-contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 50%;
+  width: 50%;
   margin-right: 2rem;
 }
 .left-div {
@@ -18,42 +18,50 @@
   justify-content: center;
   width: stretch;
   border-radius: 10px;
-  min-width: 100%;
-  height: fit-content;
   padding: 0px 30px 30px 30px;
   margin: 2rem 0rem 8rem 0rem;
 }
 .contact-header {
-  font-size: 2rem;
-  text-align: center;
-  color: var(--color-offwhite)
+  font-size: 6vmin;
+  color: var(--color-offwhite);
 }
 #contact-header {
-   align-items: center;
-   margin: 0px;
-   color: var(--color-white);
+  align-items: center;
+  color: var(--color-white);
+  background: var(--color-brown);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: var(--color-white);
 }
+#contact-msg {
+  color: var(--color-white);
+  font-size: 2.5vmin;
+  font-weight: 200;
+}
+
 .right-div {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-width: 50%;
+  width: 70%;
   margin-bottom: 4rem;
+  
 }
 .contact-item {
   display: inline-flex;
   align-items: center;
-  background: var(--color-white);
-  box-shadow: 0 0 2px #c4c7cc;
+  background: var(--color-primary);
+  border: 2px solid var(--color-offwhite);
   border-radius: 10px;
   margin: 20px;
   padding: 20px;
   gap: 2em;
   font-size: 0.9rem;
+  color: var(--color-white);
 }
 .contact-item:hover {
-  background-color: var(--color-bg-variant);
-  color: var(--color-bg);
+  background-color: var(--color-primary-light);
+  font-weight: 500;
 }
 
 @media (max-width: 900px) {
