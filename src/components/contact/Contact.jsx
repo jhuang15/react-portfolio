@@ -31,19 +31,15 @@ const Contact = () => {
           </div>
           <div className="left-div">
             <div className="contactme-div">
-              <div className="hr-contact">
-              <p className="dots">o o o</p>
-                <hr />
-              </div>
-              <h2 className="contact-header">Contact Me</h2>
+              <h2 className="contact-header">Thanks for visiting my page! Feel free to connect and reach out to me </h2>
             </div>
           </div>
         </div>
 
         <div className="right-div">
-          <div className="contact-item"><MdEmail size={25}/><a href="mailto: jchuang1020@gmail.com">jchuang1020@gmail.com</a></div>
-          <div className="contact-item"><BsLinkedin size={25}/><a href="https://www.linkedin.com/in/jenny-huang-atl/">https://www.linkedin.com/in/jenny-huang-atl/</a></div>
-          <div className="contact-item"><BsGithub size={25}/><a href="https://github.com/jhuang15">https://github.com/jhuang15</a></div>
+          <a className="contact-item" href="mailto: jchuang1020@gmail.com"><MdEmail size={25}/> jchuang1020@gmail.com</a>
+          <a className="contact-item" href="https://www.linkedin.com/in/jenny-huang-atl/"><BsLinkedin size={25}/> https://www.linkedin.com/in/jenny-huang-atl/</a>
+          <a className="contact-item" href="https://github.com/jhuang15"><BsGithub size={25}/> https://github.com/jhuang15</a>
         </div>
       </div>
 
