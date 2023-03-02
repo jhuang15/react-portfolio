@@ -1,17 +1,15 @@
 .nav-container {
-  padding: 3vmin;
+  padding: 16px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   box-shadow: 0 0 5px #c4c7cc;
-  
 }
 .nav-link-btn {
-  margin: 2px 10px 0px;
+  margin: 0px 12px;
   color: var(--color-primary-light);
   font-size: 16px;
 }
-
 .nav-link-btn:hover {
   color: var(--color-primary);
 }
