@@ -1,15 +1,31 @@
+.header-container {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+}
+
+.header-title-1 {
+  padding: 10vmin;
+  background: red;
+  float: left;
+
+}
+.header-pic {
+  float: left;
+}
+
+#clear {
+  clear:both;
+}
 
 .head-photo {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  margin: auto;
 }
 #profile-pic {
   width: 25vw;
   height: 25vw;
   object-fit: cover;
   border-radius: 50%;
-  border: 1px solid #909194;
   box-shadow: 0 0 2px #c4c7cc;
 }
 @media (max-width: 900px) {
