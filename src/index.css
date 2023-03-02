@@ -10,12 +10,13 @@
   text-decoration: none;
 }
 :root {
-  --color-bg: #ffffff;
-  --color-bg-variant: #ffffff;
-  --color-primary: #ffffff;
-  --color-primary-variant: #000000;
+  --color-primary: #4B53F2;
+  --color-primary-light: #636AF2;
+  --color-purple: #9B9FF2;
+  --color-brown: #8C4E18;
   --color-white: #ffffff;
-  --color-light: #a1a1a1;
+  --color-offwhite: #F2F2F2;
+  --color-gray: #424242;
   --container-width-lg: 75%;
   --container-width-md: 80%;
   --container-width-ms: 90%;
@@ -44,8 +45,7 @@ h2 {
   font-size: 10vmin;
 }
 p {
-  font-weight: 200;
-  font-size: 1.7vmin;
+  font-weight: 300;
 }
 hr {
   border: 1px solid black;

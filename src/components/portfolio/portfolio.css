@@ -1,128 +1,114 @@
-#portfolio {
-  padding-top: 2vw;
+h3 {
+  color: var(--color-gray);
 }
-#portfolio-container {
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: fit-content;
-  
+#project-header {
+  font-size: 40px;
+  margin: 25px;
 }
-.portfolio-title {
-  text-align: center;
-  font-size: 4em;
+.project-icon {
+  width: 20%;
+  height: 50px;
 }
-.content-row {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
-  margin-bottom: 2rem;
+
+.projectContainer {
+  margin: 50px auto 50px auto;
+  width: 90%;
+  height: 100vmin;
 }
-.project-n-btn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0.3rem;
-  width: 20em;
-}
-.project-n-btn:before {
-  content: '';
-  opacity: 0;
-  z-index: 2;
-}
-.project-n-btn:hover:before {
-  opacity: 1;
-  z-index: 1;
+
+.leftContainer {
+  width: 30%;
+  height: 100%;
+  float: left;
 }
 .project-div {
-  border: none;
-  border-radius: 10px;
-  padding: 1rem 2rem 2rem 2rem;
-  margin: 0.5rem;
-  color: transparent;
-  height: 100%;
-  border: 1px solid #909194;
-  box-shadow: 0 0 2px #c4c7cc;
-  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 15vmin;
+  margin: 20px 0;
+  border-radius: 15px;
+  padding: 10px;
 }
-
 .project-div:hover {
-  filter: brightness(80%);
-  color: black;
+  background-color: var(--color-offwhite);
 }
 
-#background-img1 {
-  background-image: url("../../assets/mint.png");
-  background-size: cover;
+.icon-div {
+  background: var(--color-purple);
+  background-size: 50px;
+  background-repeat: no-repeat;
   background-position: center;
+  width: 20%;
+  height: 100%;
+  float: left;
+  border-radius: 5px;
+  padding: 5px;
 }
-#background-img2 {
-  background-image: url("../../assets/onlycakes-img.png");
-  background-size: cover;
-  background-position: center;
+#icon-mint {
+  background-image: url("../../assets/wedding-day.png");
+  background-size: 60px;
 }
-#background-img3 {
-  background-image: url("../../assets/bevo-img.png");
-  background-size: cover;
-  background-position: center;
+#icon-onlycakes {
+  background-image: url("../../assets/cake.png");
 }
-#background-img4 {
-  background-image: url("../../assets/concentration.png");
-  background-size: cover;
-  background-position: center;
-  
+#icon-bevo {
+  background-image: url("../../assets/management.png");
 }
-
-#project-title {
-  display: flex;
-  justify-content: center;
-  font-size: 2vw;
+#icon-concentration {
+  background-image: url("../../assets/memory.png");
 }
-
-p {
-  font-size: 0.9em;
+.project-content-div {
+  float: left;
+  width: 80%;
+  padding: 10px;
 }
 
-.btn-container {
-  display: flex;
-  justify-content: center;
-  gap: 1vw;
-  width: 90%;
-  opacity: 0;
+.rightContainer {
+  background: var(--color-offwhite);
+  height: 100%;
+  width: 65%;
+  float: right;
+  border-radius: 40px;
+  padding: 40px;
 }
 
-.project-n-btn:hover .btn-container {
-  opacity: 1;
+#clear {
+  clear:both;
+}
+
+.project-img {
+  width: 50%;
+  border-radius: 5px;
 }
 
 .project-btn {
-  display: inline-flex;
-  justify-content: center;
-  gap: 0.2vw;
-  background-color: var(--color-primary);
-  border: 1px solid #ffffff;
-  border-radius: 20px;
-  padding: 0.5vw;
-  font-size: 0.8rem;
-  text-align: center;
-  width: 50%;
-  z-index: 3;
+  width: 80px;
+  height: 30px;
+  padding: 10px;
+  margin: 10px;
+  background: var(--color-primary-light);
+  color: var(--color-white);
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 300;
+  border: 2px solid var(--color-primary-light);
 }
 
-@media (max-width: 640px) {
-  #project-title {
-    font-size: 8vmin;
-  }
-  
-  .btn-container {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-  .project-btn {
-    width: 95%;
-  }
+.project-btn:hover {
+  background: var(--color-primary);
+  box-shadow: 0 0 2px #5d5d5d;
+}
+
+#github-btn {
+
+}
+
+#demo-btn {
+  background: var(--color-offwhite);
+  color: var(--color-primary-light);
+}
+#demo-btn:hover {
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
 }

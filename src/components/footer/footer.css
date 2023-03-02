@@ -1,0 +1,11 @@
+.footer-container {
+  height: 100%;
+  padding: 8vmin;
+}
+ #footer-p {
+  display: flex;
+  justify-content: center;
+  font-size: 1.1vh;
+  margin: center;
+  color: var(--color-gray)
+ }
