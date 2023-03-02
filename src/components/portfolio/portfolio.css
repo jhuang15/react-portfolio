@@ -100,15 +100,11 @@ h3 {
   box-shadow: 0 0 2px #5d5d5d;
 }
 
-#github-btn {
-
-}
-
 #demo-btn {
   background: var(--color-offwhite);
   color: var(--color-primary-light);
 }
 #demo-btn:hover {
-  border: 2px solid var(--color-primary);
+  border: 2px solid var(--color-git primary);
   color: var(--color-primary);
 }
