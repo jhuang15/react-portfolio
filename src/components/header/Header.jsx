@@ -21,19 +21,22 @@ const Header = () => {
 
   return (
     <div className="header-container">
-      <div className="header-title-1">
-      <Typical
-        steps={['Welcome!', 1000, 'My name is Jenny Huang', 500]}
-        // loop={Infinity}
-        wrapper="h1"
-      />
-      <Typical
-        steps={['Software Engineer', 1000, 'Full-Stack Developer', 1000, 'Front-End Engineer', 1000]}
-        loop={Infinity}
-        wrapper="h3"
-      />
-
+      <div className="header-title-1-2">
+        <div id="header-title-1">
+          <Typical
+            steps={['Welcome!', 1000, 'I\'m Jenny Huang', 500]}
+            wrapper="h1"
+          />
+        </div>
+        <div id="header-title-2">
+          <Typical
+            steps={['Full-Stack Developer', 1000, 'Front-End Engineer', 1000, 'Software Engineer', 1000]}
+            loop={Infinity}
+            //wrapper="h3"
+          />
+        </div> 
       </div>
+      
       <div className="header-pic">
         <img id="profile-pic" src="https://i.imgur.com/D0rFcIZ.jpg" alt="me"></img>
       </div>
