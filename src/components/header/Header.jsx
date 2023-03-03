@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './header.css';
-import Typical from 'react-typical';
+//import Typical from 'react-typical';
 
 const Header = () => {
   useEffect(function () {
@@ -23,19 +23,19 @@ const Header = () => {
     <div className="header-container">
       <div className="header-title-1-2">
         <div id="header-title-1">
-          <Typical
+          {/* <Typical
             steps={['Hey there!', 1000, 'I\'m Jenny Huang', 500]}
             wrapper="h1"
-          />
-          {/* <h1>Hi there!<br /> I'm Jenny Huang </h1> */}
+          /> */}
+          <h1>Hi there! I'm Jenny Huang </h1>
         </div>
         <div id="header-title-2">
-          <Typical
+          {/* <Typical
             steps={['Full-Stack Developer', 1000, 'Front-End Engineer', 1000, 'Software Engineer', 1000]}
             //loop={Infinity}
             //wrapper="h3"
-          />
-          {/* Software Engineer | Front-End Developer */}
+          /> */}
+          Software Engineer
         </div> 
       </div>
       
@@ -43,7 +43,7 @@ const Header = () => {
         <img id="profile-pic" src="https://i.imgur.com/D0rFcIZ.jpg" alt="me"></img>
       </div>
       <div id="clear"> </div>
-      <div></div>
+      
     </div>
     
     
