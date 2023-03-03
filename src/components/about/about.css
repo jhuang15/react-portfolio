@@ -18,11 +18,11 @@
 }
 .right-container {
   background-color: white;
-  width: stretch;
+  width: 90%;
   height: fit-content;
   border: none;
-  box-shadow: 0 0 2px #c4c7cc;
-  border-radius: 15px;
+  background: red;
+  border-radius: 40px;
   color: black;
 }
 .about-header {
