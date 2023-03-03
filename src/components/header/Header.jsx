@@ -31,7 +31,7 @@ const Header = () => {
         <div id="header-title-2">
           <Typical
             steps={['Full-Stack Developer', 1000, 'Front-End Engineer', 1000, 'Software Engineer', 1000]}
-            loop={Infinity}
+            //loop={Infinity}
             //wrapper="h3"
           />
         </div> 
