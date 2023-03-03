@@ -43,7 +43,7 @@ const Header = () => {
         <img id="profile-pic" src="https://i.imgur.com/D0rFcIZ.jpg" alt="me"></img>
       </div>
       <div id="clear"> </div>
-      
+      <div></div>
     </div>
     
     
