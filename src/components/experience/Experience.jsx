@@ -20,33 +20,65 @@ const Experience = () => {
 
 
   return (
-    <div id="experience">
-      <div className="container" id="skills-container">
-        <h2 className="skill-header">My Skills</h2>
-        <div className="skills-div-wrapper">
-          <div className="skills-div">
-            <p className="dots">o o o</p>
-            <h2 className="skill-title">TECHNICAL SKILLS</h2>
-            <hr />
-            <p className="skill-content"><b>Object-Oriented Languages: </b>Python, Java</p>
-            <p className="skill-content"><b>Scripting Language: </b>Javascript</p>
-            <p className="skill-content"><b>Frameworks: </b>React, Django, Express, Bootstrap, Materialize </p>
-            <p className="skill-content"><b>Databases: </b>PostgreSQL, Mongodb, MySQL, SQLite </p>
-            <p className="skill-content"><b>Tools: </b>CSS, HTML, Visual Studio, Git, Github, AJAX, AWS S3, Agile Methodology, Figma</p>
+    <div className="skills-container">
+      <div className="skills-header">
+        Technical Skills
+        <div className="skills-content">
+          <div className='skill-1'>
+              Javascript
+          </div>
+          <div className='skill-1'>
+              HTML/CSS
+          </div>
+          <div className='skill-1'>
+              React
+          </div>
+          <div className='skill-1'>
+              Python
+          </div>
+          <div className='skill-1'>
+              Django
+          </div>
+          <div className='skill-1'>
+              MongoDB
+          </div>
+          <div className='skill-1'>
+              Node
+          </div>
+          <div className='skill-1'>
+              Postgres
+          </div>
+          <div className='skill-1'>
+              AWS S3
+          </div>
+          <div className='skill-1'>
+              Git 
+          </div>
+          <div className='skill-1'>
+              Express
+          </div>
+          <div className='skill-1'>
+              AJAX
+          </div>
+          <div className='skill-1'>
+              Visual Studio
+          </div>
+          <div className='skill-1'>
+              Figma
+          </div>
+          <div className='skill-1'>
+              Agile Methodology
+          </div>
+          <div className='skill-1'>
+              Bootstrap
+          </div>
 
-              
-          </div>
-          
-          <div className="skills-div">
-            <p className="dots">o o o</p>
-            <h2 className="skill-title">SOFTSKILLS</h2>
-            <hr />
-            <p className="skill-content"> effective communication, teamwork, dependability, adaptability, and flexibility
-            </p>
-          </div>
         </div>
+
       </div>
+
     </div>
+
 
   )
 }
