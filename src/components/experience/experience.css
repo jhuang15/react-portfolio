@@ -1,17 +1,16 @@
 .skills-container {
   width: 90%;
   margin: auto;
+  margin-bottom: 5rem;
   height: fit-content;
   background: var(--color-purple);
   border-radius: 40px;
-  padding: 40px;
+  padding: 4rem 130px;
 }
 
 .skills-header {
   font-size: 40px;
   font-weight: 500;
-  color: var(--color-brown);
-  margin-top: -40px;
 }
 
 .skills-content {
