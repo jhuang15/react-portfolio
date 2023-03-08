@@ -13,120 +13,83 @@ h3 {
 .projectContainer {
   margin: 50px auto 50px auto;
   width: 90%;
-  height: 100vmin;
+  height: 100%;
 }
 
-/* .leftContainer {
-  width: 30%;
-  height: 100%;
-  float: left;
-} */
-/* .project-div {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 7rem;
-  margin: 20px 0;
-  border-radius: 15px;
-  padding: 10px;
-} */
-/* .project-div:hover {
-  background-color: var(--color-offwhite);
-} */
 .projectSelector {
   width: 30%;
   height: 100%;
   float: left;
-
 }
 .projectSelector div {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 7rem;
-  margin: 20px 0;
-  border-radius: 15px;
   padding: 10px;
+  margin: 5px 0px;
+  border-radius: 15px;
+  
 }
 .projectSelector div.selected {
-  background-color: green;
+  background-color: var(--color-offwhite);
 }
 
-.icon-div {
+.projectSelector div.icon-div {
   background: var(--color-purple);
   background-size: 50px;
   background-repeat: no-repeat;
   background-position: center;
   width: 20%;
-  height: 100%;
   float: left;
   border-radius: 5px;
   padding: 5px;
 }
-#icon-mint {
+.projectSelector div#icon-mint {
   background-image: url("../../assets/wedding-day.png");
   background-size: 60px;
 }
-#icon-onlycakes {
+.projectSelector div#icon-onlycakes {
   background-image: url("../../assets/cake.png");
 }
-#icon-bevo {
+.projectSelector div#icon-bevo {
   background-image: url("../../assets/management.png");
 }
-#icon-concentration {
+.projectSelector div#icon-concentration {
   background-image: url("../../assets/memory.png");
 }
-.project-content-div {
+.projectSelector div.project-content-div {
   float: left;
   width: 80%;
   padding-left: 10px;
+  display: flex;
+  flex-direction: column;
 }
+
 .outer-wrapper {
   float: left;
-  
 }
-.inner {
-  position:absolute;
-  background: var(--color-offwhite);
-  height: 100%;
-  width: 65%;
-  border-radius: 40px;
-  padding: 40px;
-  
-}
-/* .inner #div.selected  {
-  display: block;
-  visibility: visible;
-  
-}
-/* #project-2-container {
-  display: none;
-  visibility: hidden;
-} */ 
-
 .projectList div {
   display: none;
   visibility: hidden;
   position: absolute;
-
+  background: var(--color-offwhite);
+  width: 63%;
+  height: 38rem;
+  border-radius: 40px;
+  padding: 40px;
+  margin: 15px;
 }
-
 .projectList div.selected {
   display: block;
   visibility: visible;
-  background: red;
 }
-
-
 #clear {
   clear:both;
 }
-
 .project-img {
   width: 50%;
   border-radius: 5px;
 }
-
 .project-btn {
   width: 80px;
   height: 30px;
