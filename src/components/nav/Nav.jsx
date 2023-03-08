@@ -27,7 +27,7 @@ const Nav = () => {
     <div className="nav-container">
       <div className="links-div">
         <Link className="nav-link-btn" activeClass="active" to="about-me" spy={true} smooth={true}>About Me</Link>           
-        <Link className="nav-link-btn" to="experience" spy={true} smooth={true}>Skills</Link>         
+        <Link className="nav-link-btn" to="skills" spy={true} smooth={true}>Skills</Link>         
         <Link className="nav-link-btn" to="portfolio" spy={true} smooth={true}>Projects</Link>
         <Link className="nav-link-btn" to="contact-me" spy={true} smooth={true}>Contact Me</Link>
       </div>

@@ -1,7 +1,6 @@
 .skills-container {
   width: 90%;
-  margin: auto;
-  margin-bottom: 5rem;
+  margin: 7rem auto 7rem auto;
   height: fit-content;
   background: var(--color-purple);
   border-radius: 40px;

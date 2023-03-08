@@ -23,7 +23,7 @@ const Portfolio = () => {
   const [hovNumber, setHovNumber] = useState(1);
 
   return (
-    <div className="projectContainer">
+    <div className="projectContainer" id="portfolio">
       <LeftContentContainer hovNumber={hovNumber} setHovNumber={setHovNumber} />
       <RightContentContainer hovNumber={hovNumber} />
       <div id="clear"> </div> 
