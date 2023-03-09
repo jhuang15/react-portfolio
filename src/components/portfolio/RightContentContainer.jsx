@@ -18,17 +18,23 @@ export default function RightContentContainer ( {hovNumber} ) {
           <div className={hovNumber === 2 ? "selected" : ""}>
             <h1>OnlyCakes</h1>
             <h3>All your favorite cake recipes here</h3>
+            <a className="project-btn" id="github-btn" href="https://github.com/jhuang15/onlycakes" target="_blank" rel="noopener noreferrer">GitHub <BsGithub size={16}/></a>
+            <a className="project-btn" id="demo-btn" href="https://onlycakes.up.railway.app/" target="_blank" rel="noopener noreferrer">Live Demo <FiExternalLink size={16}/></a>
           </div>  
 
 
           <div className={hovNumber === 3 ? "selected" : ""}>
             <h1>Bevo</h1>
             <h3>Store and manage beverage inventory</h3>
+            <a className="project-btn" id="github-btn" href="https://github.com/jhuang15/bevo" target="_blank" rel="noopener noreferrer">GitHub <BsGithub size={16}/></a>
+            <a className="project-btn" id="demo-btn" href="" target="_blank" rel="noopener noreferrer">Live Demo <FiExternalLink size={16}/></a>
           </div> 
 
           <div className={hovNumber === 4 ? "selected" : ""}>
             <h1>Concentration</h1>
             <h3>A memory game</h3>
+            <a className="project-btn" id="github-btn" href="https://github.com/jhuang15/concentration" target="_blank" rel="noopener noreferrer">GitHub <BsGithub size={16}/></a>
+            <a className="project-btn" id="demo-btn" href="https://jhuang15.github.io/concentration/" target="_blank" rel="noopener noreferrer">Live Demo <FiExternalLink size={16}/></a>
           </div> 
 
       </div>
