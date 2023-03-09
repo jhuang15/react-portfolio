@@ -14,20 +14,24 @@ h3 {
   margin: 7rem auto 7rem auto;
   width: 90%;
   height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.leftContainer {
+  width: 30%;
 }
 
 .projectSelector {
-  width: 30%;
-  height: 100%;
   float: left;
+  margin: 3rem 0rem;
 }
 .projectSelector div {
   display: flex;
   flex-direction: row;
-  width: 100%;
   padding: 10px;
-  margin: 5px 0px;
   border-radius: 15px;
+  width: 100%;
   
 }
 .projectSelector div.selected {
@@ -59,7 +63,6 @@ h3 {
 }
 .projectSelector div.project-content-div {
   float: left;
-  width: 80%;
   padding-left: 10px;
   display: flex;
   flex-direction: column;
@@ -67,14 +70,14 @@ h3 {
 
 .outer-wrapper {
   float: left;
+  margin: 3rem 0rem;
 }
 .projectList div {
   display: none;
   visibility: hidden;
-  position: absolute;
   background: var(--color-offwhite);
-  width: 62%;
-  height: 52rem;
+  width: 50rem;
+  height: 40rem;
   border-radius: 40px;
   padding: 40px;
   margin: 15px;

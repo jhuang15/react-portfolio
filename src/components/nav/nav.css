@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   box-shadow: 0 0 5px #c4c7cc;
-  position: sticky;
+  position: fixed;
   top: 0;
   background: var(--color-white);
 }

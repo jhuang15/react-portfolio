@@ -25,13 +25,13 @@ export default function LeftContentContainer ({ hovNumber, setHovNumber}) {
             <p>Manage your beverage inventory as well as share information with colleagues about specific items.</p>
           </div>
         </div>
-        <div className={hovNumber === 4 ? "selected" : ""} onMouseOver={() => setHovNumber(4)}>
+        {/* <div className={hovNumber === 4 ? "selected" : ""} onMouseOver={() => setHovNumber(4)}>
         <div className="icon-div" id="icon-concentration"></div>
           <div className="project-content-div">
             <h3>Concentration</h3>
             <p>Quick and easy game to stimulate your mind! Try to beat your time by matching colored cards faster </p>
           </div>
-        </div>
+        </div> */}
         </div>  
       </section>
 
