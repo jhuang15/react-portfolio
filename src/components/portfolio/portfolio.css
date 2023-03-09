@@ -19,7 +19,7 @@ h3 {
 }
 
 .leftContainer {
-  width: 30%;
+  width: 35%;
 }
 
 .projectSelector {
@@ -30,6 +30,7 @@ h3 {
   display: flex;
   flex-direction: row;
   padding: 10px;
+  margin: 5px 0px;
   border-radius: 15px;
   width: 100%;
   
@@ -44,6 +45,7 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   width: 20%;
+  height: 7rem;
   float: left;
   border-radius: 5px;
   padding: 5px;
@@ -71,12 +73,12 @@ h3 {
 .outer-wrapper {
   float: left;
   margin: 3rem 0rem;
+  width: 70%;
 }
 .projectList div {
   display: none;
   visibility: hidden;
   background: var(--color-offwhite);
-  width: 50rem;
   height: 40rem;
   border-radius: 40px;
   padding: 40px;
