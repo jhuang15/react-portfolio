@@ -1,8 +1,9 @@
 export default function LeftContentContainer ({ hovNumber, setHovNumber}) {
   return (
     <section className="leftContainer">
-        <h5 id="project-header">Take a peek at the projects I've built</h5>
+        
         <div className="projectSelector">
+        <h5 id="project-header">Take a peek at the projects I've built</h5>
         <div className={hovNumber === 1 ? "selected" : ""} onMouseOver={() => setHovNumber(1)}  >
           <div className="icon-div" id="icon-mint"></div>
           <div className="project-content-div">
