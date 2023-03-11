@@ -88,12 +88,47 @@ h3 {
   display: block;
   visibility: visible;
 }
+.projectList .tools-wrapper {
+  display: flex;
+  justify-content: center;
+  visibility: visible;
+  height: fit-content;
+  padding: 0px;
+  margin: 5px;
+}
+.projectList .project-tools {
+  display: block;
+  visibility: visible;
+  background: var(--color-primary);
+  color: var(--color-offwhite);
+  font-weight: 300;
+  font-size: 12px;
+  border-radius: 10px;
+  height: fit-content;
+  width: fit-content;
+  padding: 12px;
+}
+
+.projectList .img-container {
+  display: block;
+  visibility: visible;
+  height: fit-content;
+}
+
+.projectList .btn-container {
+  margin: 0 auto;
+  display:block;
+  visibility: visible;
+  height: 20%;
+  width:fit-content;
+}
 #clear {
   clear:both;
 }
 .project-img {
-  width: 50%;
+  width: 49%;
   border-radius: 5px;
+  margin-right: 1px;
 }
 .project-btn {
   width: 80px;
