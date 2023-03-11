@@ -35,7 +35,7 @@ const Header = () => {
             //loop={Infinity}
             //wrapper="h3"
           /> */}
-          Software Engineer
+          Software Engineer | Front-End Engineer
         </div> 
       </div>
       

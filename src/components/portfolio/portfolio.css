@@ -40,7 +40,7 @@ h3 {
 }
 
 .projectSelector div.icon-div {
-  background: var(--color-purple);
+  background: var(--color-yellow);
   background-size: 50px;
   background-repeat: no-repeat;
   background-position: center;
@@ -153,6 +153,6 @@ h3 {
   color: var(--color-primary-light);
 }
 #demo-btn:hover {
-  border: 2px solid var(--color-git primary);
+  border: 2px solid var(--color-primary);
   color: var(--color-primary);
 }
