@@ -34,10 +34,10 @@ const Experience = () => {
               React
           </div>
           <div className='skill-1'>
-              Python
+              Java
           </div>
           <div className='skill-1'>
-              Django
+              Python
           </div>
           <div className='skill-1'>
               MongoDB
