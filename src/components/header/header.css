@@ -5,6 +5,7 @@
   margin-top: 15vh;
   padding: 60px;
   border-radius: 40px;
+  background: var(--color-primary);
 }
 
 .header-title-1-2 {
