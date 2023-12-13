@@ -12,7 +12,6 @@
   align-items: center;
   width: 100%;
   margin-right: 2rem;
-  background-image: linear-gradient(to right, #f6ef98,#1b7fbd, #112f91, #112f91);
   border-radius: 40px;
   padding: 30px;
 }
@@ -30,7 +29,7 @@
 }
 #contact-header {
   align-items: center;
-  background: var(--color-primary);
+  background: var(--color-yellow);
   padding: 10px 20px;
   border-radius: 10px;
   color: var(--color-offwhite);
